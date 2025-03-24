@@ -1,0 +1,596 @@
+[
+  {
+    "name_blog": "YC's essential startup advice",
+    "description_blog": "Here is what we, at YC, consider the most important, most transformative advice for startups.",
+    "authors": ["Geoff Ralston", "Michael Seibel"],
+    "related_categories": [
+      "Becoming a Founder",
+      "Early Stage",
+      "Customers",
+      "Talking to Users",
+      "Growth",
+      "Product",
+      "Product Market Fit",
+      "Fundraising",
+      "Business Models",
+      "Unit Economics"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4D-yc-s-essential-startup-advice"
+  },
+  {
+    "name_blog": "A guide to seed fundraising",
+    "description_blog": "The most comprehensive guide on why, when, and how to raise money for your startup.",
+    "authors": ["Geoff Ralston"],
+    "related_categories": [
+      "Fundraising",
+      "Seed Round",
+      "Investors"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4A-a-guide-to-seed-fundraising"
+  },
+  {
+    "name_blog": "How to build your seed round pitch deck",
+    "description_blog": "Y Combinator has helped thousands of founders create pitch decks for their seed round fundraising. Here is the YC seed deck template that works.",
+    "authors": ["Aaron Harris"],
+    "related_categories": [
+      "Fundraising",
+      "Pitch Deck",
+      "Seed Round"
+    ],
+    "page_url": "https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck"
+  },
+  {
+    "name_blog": "How to set up, hire, and scale a growth strategy and team",
+    "description_blog": "What does a growth team do and why should you set up a growth team? Growth experts share when to invest in growth, what the right growth KPIs are, how to manage growth, building a growth team, and how to get everyone in the company to care about growth.",
+    "authors": ["Anu Hariharan"],
+    "related_categories": [
+      "Growth",
+      "People",
+      "Hiring",
+      "KPI",
+      "Customers",
+      "Retention"
+    ],
+    "page_url": "https://www.ycombinator.com/library/59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team"
+  },
+  {
+    "name_blog": "How to design a better pitch deck",
+    "description_blog": "Investors invest in teams not slides. Your slides should make your ideas more clear. Here are design principles to follow when creating your pitch deck and story.",
+    "authors": ["Kevin Hale"],
+    "related_categories": [
+      "Fundraising",
+      "Pitch Deck",
+      "YC",
+      "YC Demo Day"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck"
+  },
+  {
+    "name_blog": "Three paths in the tech industry: founder, executive, or employee",
+    "description_blog": "When thinking about tech as a career, there are three paths. Michael discusses the pros, cons and useful strategies for each role.",
+    "authors": ["Michael Seibel"],
+    "related_categories": [
+      "Becoming a Founder",
+      "College Students"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4h-three-paths-in-the-tech-industry-founder-executive-or-employee"
+  },
+  {
+    "name_blog": "Startups for students",
+    "description_blog": "The guide is informed by hundreds of hours of talks, blog posts and essays we've written for students who are interested in starting or working at startups. We talk about why (and why not) you should start a startup, what to do in college if you're interested in starting a company, and how to choose which startup to work for.",
+    "authors": ["Tamanna Khemani", "Kat Mañalac"],
+    "related_categories": [
+      "Becoming a Founder",
+      "College Students",
+      "Working at a Startup"
+    ],
+    "page_url": "https://www.ycombinator.com/library/D0-startups-for-students"
+  },
+  {
+    "name_blog": "Does co-founder matching work? ",
+    "description_blog": "Does co-founder matching work? It did for these three YC companies. Read about how the founders of Seer, Sequin, and Kiwi Biosciences used YC's co-founder matching platform to complete their founding team.",
+    "authors": ["Catheryn Li"],
+    "related_categories": [
+      "Founder Stories",
+      "Co-Founders"
+    ],
+    "page_url": "https://www.ycombinator.com/library/Cq-does-co-founder-matching-work"
+  },
+  {
+    "name_blog": "Billionaires build",
+    "description_blog": "YC's Paul Graham shares advice for acing the YC interview.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/9M-billionaires-build"
+  },
+  {
+    "name_blog": "How to convince investors",
+    "description_blog": "You need three things: formidable founders, a promising market, and some evidence of success so far.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/98-how-to-convince-investors"
+  },
+  {
+    "name_blog": "Do things that don't scale",
+    "description_blog": "Startups take off because the founders make them take off. Almost all startups are fragile initially. It's important to recruit users manually.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/96-do-things-that-don-t-scale"
+  },
+  {
+    "name_blog": "Default alive or default dead",
+    "description_blog": "Assuming expenses remain constant and revenue growth continues on trend, will your company make it to profitability on the money you have left? Are you default alive or dead?",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/95-default-alive-or-default-dead"
+  },
+  {
+    "name_blog": "Be relentlessly resourceful",
+    "description_blog": "Make something people want' is the destination, but 'be relentlessly resourceful' is how you get there.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/94-be-relentlessly-resourceful"
+  },
+  {
+    "name_blog": "A student's guide to startups",
+    "description_blog": "The pros and cons of starting a startup in (or soon after) college. Pros: stamina, poverty, rootlessness, colleagues, ignorance. Cons: building stuff that looks like class projects.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/93-a-student-s-guide-to-startups"
+  },
+  {
+    "name_blog": "Why smart people have bad ideas",
+    "description_blog": "You come up with a random idea, plunge into it, then at each point (a day, a week, a month) feel you've put so much time into it that this must be THE idea.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/91-why-smart-people-have-bad-ideas"
+  },
+  {
+    "name_blog": "How to Get Startup Ideas",
+    "description_blog": "The very best startup ideas tend to have three things in common: they're something the founders themselves want, that they themselves can build, and that few others realize are worth doing.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/8z-how-to-get-startup-ideas"
+  },
+  {
+    "name_blog": "Before the startup",
+    "description_blog": "YC's Paul Graham explains that startups are counterintuive and all-consuming, and he boils down his advice to two words: just learn.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/8y-before-the-startup"
+  },
+  {
+    "name_blog": "Why to not not start a startup",
+    "description_blog": "YC's Paul Graham discusses common reasons why people are reluctant to start a company.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/8x-why-to-not-not-start-a-startup"
+  },
+  {
+    "name_blog": "The hardest lessons for startups to learn",
+    "description_blog": "Seven counterintuitive lessons about startups — from releasing early to not getting your hopes up.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/8w-the-hardest-lessons-for-startups-to-learn"
+  },
+  {
+    "name_blog": "The equity equation",
+    "description_blog": "YC's Paul Graham introduces a general formula for deciding if trading away stock in your company is worth it.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/8u-the-equity-equation"
+  },
+  {
+    "name_blog": "The 18 mistakes that kill startups",
+    "description_blog": "YC's Paul Graham on the biggest mistakes for startups: not making something users want.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/8t-the-18-mistakes-that-kill-startups"
+  },
+  {
+    "name_blog": "Startup = growth",
+    "description_blog": "A startup is a company designed to grow fast. Everything else we associate with startups follows from growth.",
+    "authors": ["Paul Graham"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/8s-startup-growth"
+  },
+  {
+    "name_blog": "How to prioritize features",
+    "description_blog": "Emmet Shear shares his mental frameworks for prioritizing building features that work to figure out what to build next on your product, drawing from his experience building Justin.tv and Twitch.",
+    "authors": ["Emmett Shear"],
+    "related_categories": [
+      "Product",
+      "Feature Prioritization",
+      "Building Product"
+    ],
+    "page_url": "https://www.ycombinator.com/library/8p-how-to-prioritize-features"
+  },
+  {
+    "name_blog": "How to spin your scientific research out of a university and into a startup",
+    "description_blog": "Here is advice for people who have done scientific research at a university and are considering starting a company to commercialize it.",
+    "authors": ["Jared Friedman"],
+    "related_categories": [
+      "Science + Biotech",
+      "Becoming a Founder",
+      "Academia to Startup"
+    ],
+    "page_url": "https://www.ycombinator.com/library/8f-how-to-spin-your-scientific-research-out-of-a-university-and-into-a-startup"
+  },
+  {
+    "name_blog": "How to build a great Series A pitch and deck",
+    "description_blog": "YC's Janelle Tam on how to put together a great Series A pitch and deck.",
+    "authors": ["Janelle Tam"],
+    "related_categories": ["Series A"],
+    "page_url": "https://www.ycombinator.com/library/8d-how-to-build-a-great-series-a-pitch-and-deck"
+  },
+  {
+    "name_blog": "On starting and scaling aerospace company Boom",
+    "description_blog": "Blake Scholl is founder and CEO of Boom Technology (YC W16). He discusses deciding to start a hard tech company, innovation in aviation, applying to YC, advice for hard tech companies and more.",
+    "authors": ["Blake Scholl"],
+    "related_categories": ["Founder Stories"],
+    "page_url": "https://www.ycombinator.com/library/5Q-on-starting-and-scaling-aerospace-company-boom"
+  },
+  {
+    "name_blog": "On starting a company from a hackathon project",
+    "description_blog": "Athelas (YC S16) makes low cost devices that enable rapid blood diagnostics. Here's the story of how Athelas began as a small hardware prototype at a YC Hackathon and grew into a real shippable product.",
+    "authors": ["Tanay Tandon"],
+    "related_categories": ["Founder Stories"],
+    "page_url": "https://www.ycombinator.com/library/4x-on-starting-a-company-from-a-hackathon-project"
+  },
+  {
+    "name_blog": "Navigating success for your startup",
+    "description_blog": "Different people accept different outcomes for their startup; it's all a matter of what you want to do. If you want to shoot for the billion dollar outcome, then perhaps fundraising from VCs is the right move. But if you don't or what you have cannot get there, then sometimes it's much better for you to not sell any of your equity.",
+    "authors": ["Sam Altman"],
+    "related_categories": [
+      "Fundraising",
+      "Valuations"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4s-navigating-success-for-your-startup"
+  },
+  {
+    "name_blog": "Later stage advice for startups",
+    "description_blog": "There are many common issues founders face in the later stages of their startups. Here's a condensed list of what they are and how to get ahead of them sooner than later.",
+    "authors": ["Sam Altman"],
+    "related_categories": ["Growth Stage"],
+    "page_url": "https://www.ycombinator.com/library/4q-later-stage-advice-for-startups"
+  },
+  {
+    "name_blog": "Before growing your startup",
+    "description_blog": "Startups are defined by growth, but growth isn't step one in building a great company. If you focus on trying to grow before you make a product people love, you are unlikely to succeed.",
+    "authors": ["Sam Altman"],
+    "related_categories": [
+      "Growth",
+      "Product",
+      "MVP",
+      "Product Market Fit",
+      "Customers",
+      "Retention"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4p-before-growing-your-startup"
+  },
+  {
+    "name_blog": "Enterprise sales for hackers",
+    "description_blog": "Many hackers-turned-founders understand that sales are an important and valuable skill, but shy away from doing it out of fear and uncertainty. But being a great enterprise salesperson requires the same skill set as being a great hacker — you just need to reframe how you think about sales.",
+    "authors": ["Ryan Junee"],
+    "related_categories": ["Early Stage", "Growth", "Enterprise Sales"],
+    "page_url": "https://www.ycombinator.com/library/4m-enterprise-sales-for-hackers"
+  },
+  {
+    "name_blog": "Advice for job seekers on resumes and reaching out",
+    "description_blog": "To help job seekers, YC's Ryan Choi spends a lot of time doing 1-1s and resume reviews. Here are his most common pieces of advice for those on the job search.",
+    "authors": ["Ryan Choi"],
+    "related_categories": ["Working at a Startup"],
+    "page_url": "https://www.ycombinator.com/library/4l-advice-for-job-seekers-on-resumes-and-reaching-out"
+  },
+  {
+    "name_blog": "Guide to product development",
+    "description_blog": "This is a guide to running your product development process. This will help you rapidly iterate, measure, test, and improve your product while fully engaging your team.",
+    "authors": ["Michael Seibel"],
+    "related_categories": [
+      "Product",
+      "Building Product",
+      "Feature Prioritization",
+      "Management"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4e-guide-to-product-development"
+  },
+  {
+    "name_blog": "A letter to college students",
+    "description_blog": "These are the decisions people commonly make during college that have the most negative effects on their ability to start a startup. Avoid them.",
+    "authors": ["Michael Seibel"],
+    "related_categories": [
+      "Becoming a Founder",
+      "College Students"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4d-a-letter-to-college-students"
+  },
+  {
+    "name_blog": "Getting press for your startup",
+    "description_blog": "Treating PR like business development means developing relationships with reporters as people, getting introduced through warm connections instead of cold emails, and creating a fair value exchange. Here's the process YC companies follow when they're ready for press.",
+    "authors": ["Michael Seibel"],
+    "related_categories": [
+      "Growth",
+      "Press"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4c-getting-press-for-your-startup"
+  },
+  {
+    "name_blog": "A standard and clean Series A term sheet",
+    "description_blog": "YC has seen thousands of Series A term sheets, and we know what good terms look like. This is what a Series A term sheet looks like with standard and clean terms from a good Silicon Valley VC.",
+    "authors": ["Jason Kwon", "Aaron Harris"],
+    "related_categories": ["Fundraising", "Fundraising Docs", "Series A"],
+    "page_url": "https://www.ycombinator.com/library/4P-a-standard-and-clean-series-a-term-sheet"
+  },
+  {
+    "name_blog": "How biotech startup funding will change in the next 10 years",
+    "description_blog": "The landscape of funding for biotech startups is changing. What happened for software companies 10 years ago is happening to biotech today. Here's why more people will be able to start biotech companies moving forward.",
+    "authors": ["Jared Friedman"],
+    "related_categories": ["Fundraising", "Science + Biotech"],
+    "page_url": "https://www.ycombinator.com/library/4L-how-biotech-startup-funding-will-change-in-the-next-10-years"
+  },
+  {
+    "name_blog": "How to hire your first engineer",
+    "description_blog": "Here is advice for early stage startup founders who are hiring their first engineer.",
+    "authors": ["Harj Taggar"],
+    "related_categories": [
+      "Early Stage",
+      "Technical",
+      "Engineering",
+      "People",
+      "Hiring",
+      "Recruiting"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4H-how-to-hire-your-first-engineer"
+  },
+  {
+    "name_blog": "Convincing engineers to join your team",
+    "description_blog": "Once you've found an engineer you want to hire, the final step is presenting them an offer to join your team and convincing them to accept it. This is advice for increasing the percentage of the offers you make that are accepted.",
+    "authors": ["Harj Taggar"],
+    "related_categories": [
+      "People",
+      "Compensation",
+      "Management",
+      "CTO",
+      "Early Stage",
+      "Technical",
+      "Engineering",
+      "Hiring",
+      "Recruiting"
+    ],
+    "page_url": "https://www.ycombinator.com/library/4G-convincing-engineers-to-join-your-team"
+  },
+  {
+    "name_blog": "The hidden forces behind China's content king Toutiao",
+    "description_blog": "Toutiao, a news aggregator, has quickly become one of the top apps in China. Learn how it grew into its popularity and why users use it more often than any other daily app.",
+    "authors": ["Anu Hariharan"],
+    "related_categories": ["International", "China", "Growth", "Consumer"],
+    "page_url": "https://www.ycombinator.com/library/3x-the-hidden-forces-behind-china-s-content-king-toutiao"
+  },
+  {
+    "name_blog": "How to create and manage a board",
+    "description_blog": "Best practices in creating and managing a board, including how to create board decks, preparing and running board meetings, and overcoming board issues.",
+    "authors": ["Anu Hariharan"],
+    "related_categories": ["Board Management", "Growth Stage", "Investors"],
+    "page_url": "https://www.ycombinator.com/library/3w-how-to-create-and-manage-a-board"
+  },
+  {
+    "name_blog": "How WeChat grew to be the #1 app in the world",
+    "description_blog": "Here is a deep dive into the growth strategy that led to WeChat scaling to over a billion users.",
+    "authors": ["Anu Hariharan"],
+    "related_categories": ["Founder Stories"],
+    "page_url": "https://www.ycombinator.com/library/3t-how-wechat-grew-to-be-the-1-app-in-the-world"
+  },
+  {
+    "name_blog": "The second job of a startup CEO",
+    "description_blog": "A CEO's first job is to build a product users love; the second job is to build a company to maximize the opportunity that the product has surfaced. The future of your startup depends on how you transition from phase one to phase two.",
+    "authors": ["Ali Rowghani"],
+    "related_categories": [
+      "Management",
+      "CEO",
+      "People",
+      "Culture",
+      "Growth Stage",
+      "Leadership"
+    ],
+    "page_url": "https://www.ycombinator.com/library/3k-the-second-job-of-a-startup-ceo"
+  },
+  {
+    "name_blog": "How to measure leadership",
+    "description_blog": "Measuring leadership through bottom-line company performance also fails to provide any clues as to how someone can improve as a leader. So is there a better way?",
+    "authors": ["Ali Rowghani"],
+    "related_categories": ["Management", "CEO", "Leadership", "People"],
+    "page_url": "https://www.ycombinator.com/library/3j-how-to-measure-leadership"
+  },
+  {
+    "name_blog": "Series A diligence checklist",
+    "description_blog": "This checklist includes all the information you'll need to have ready once you sign a term sheet. Having all of this together in one place before you sign a term sheet will cut as much as a week off of your closing process.",
+    "authors": ["Aaron Harris", "Jason Kwon"],
+    "related_categories": ["Fundraising", "Series A"],
+    "page_url": "https://www.ycombinator.com/library/3h-series-a-diligence-checklist"
+  },
+  {
+    "name_blog": "Advice for companies with less than 1 year of runway",
+    "description_blog": "Having low runaway is a tricky spot to be in. Many founders delude themselves into thinking they can raise more money to get out of it. Here we discuss why this is bad and other counter-productive ideas founders have.",
+    "authors": ["Dalton Caldwell"],
+    "related_categories": [
+      "Finance",
+      "Cash Burn",
+      "Founder Psychology",
+      "Decision Making",
+      "Staying Alive"
+    ],
+    "page_url": "https://www.ycombinator.com/library/3Z-advice-for-companies-with-less-than-1-year-of-runway"
+  },
+  {
+    "name_blog": "Pinduoduo and the rise of social e-commerce",
+    "description_blog": "The success of Pinduoduo in China suggests there is a huge opportunity for social commerce platforms to emerge in other regions. Learn how Pinduoduo grew so quickly by creating a new category in social shopping.",
+    "authors": ["Anu Hariharan", "Nic Dardenne"],
+    "related_categories": ["Founder Stories"],
+    "page_url": "https://www.ycombinator.com/library/2z-pinduoduo-and-the-rise-of-social-e-commerce"
+  },
+  {
+    "name_blog": "Advice for new managers",
+    "description_blog": "One of the most difficult things about starting a company is that you have to create both a product that people love and a company where people want to work at the same time. Here's advice for those just beginning to grow and manage a team.",
+    "authors": ["Aaron Epstein"],
+    "related_categories": ["Management", "Leadership"],
+    "page_url": "https://www.ycombinator.com/library/2s-advice-for-new-managers"
+  },
+  {
+    "name_blog": "Yuri Sagalov, Co-Founder of AeroFS",
+    "description_blog": "The Social Radars talk with Yuri Sagalov. His company AeroFS, which did enterprise file syncing and sharing, was funded by Y Combinator in summer 2010. Yuri went on to work at Y Combinator before starting his own fund, Wayfinder Ventures.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/L1-yuri-sagalov-co-founder-of-aerofs"
+  },
+  {
+    "name_blog": "Adora Cheung, Co-founder of Homejoy & Instalab",
+    "description_blog": "The Social Radars (Jessica Livingston and Carolynn Levy) chat with Adora Cheung, Co-founder of Homejoy (YC S10) and now Instalab, an at-home blood testing service that helps you optimize your health by measuring over 60 biomarkers. ",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/L0-adora-cheung-co-founder-of-homejoy-instalab"
+  },
+  {
+    "name_blog": "Trevor Blackwell, Co-founder Y Combinator; Founder, Anybots",
+    "description_blog": "",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/Kz-trevor-blackwell-co-founder-y-combinator-founder-anybots"
+  },
+  {
+    "name_blog": "Parker Conrad, Founder of Zenefits & Rippling",
+    "description_blog": "The Social Radars (Jessica Livingston and Carolynn Levy) talk with Parker Conrad, who founded two startups that went on to become unicorns: Zenefits in 2013, and Rippling in 2016. Parker’s story is one the more dramatic ones you’ll hear on this podcast.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/Ky-parker-conrad-founder-of-zenefits-rippling"
+  },
+  {
+    "name_blog": "Patrick & John Collison, Co-Founders of Stripe",
+    "description_blog": "The Social Radars",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/Kx-patrick-john-collison-co-founders-of-stripe"
+  },
+  {
+    "name_blog": "Emmett Shear, Co-Founder of Twitch",
+    "description_blog": "In this episode of The Social Radars, Jessica Livingston and Carolynn Levy talk to Twitch co-founder Emmett Shear about “how Twitch grew from Justin Kan walking around with a camera on his head to one of the biggest communities on the internet.”",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/KM-emmett-shear-co-founder-of-twitch"
+  },
+  {
+    "name_blog": "Bill Clerico, Co-Founder & CEO of WePay",
+    "description_blog": "The Social Radars (Jessica Livingston and Carolynn Levy) talk with Bill Clerico, co-founder of WePay, about starting one of first examples of what we now call “FinTech” startup and selling it to J.P. Morgan for $400M. ",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/KH-bill-clerico-co-founder-ceo-of-wepay"
+  },
+  {
+    "name_blog": "Dimitri Dadiomov, Co-Founder & CEO of Modern Treasury",
+    "description_blog": "The Social Radars (Jessica Livingston and Carolynn Levy) talk to the co-founder of Modern Treasury about a crucial world most people never think about: how money actually gets moved around.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/KC-dimitri-dadiomov-co-founder-ceo-of-modern-treasury"
+  },
+  {
+    "name_blog": "Brian Armstrong, Co-Founder and CEO of Coinbase",
+    "description_blog": "In this episode of The Social Radars, Jessica Livingston and Carolynn Levy talk to Coinbase co-founder and CEO Brian Armstrong about the company’s earliest days",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/K3-brian-armstrong-co-founder-and-ceo-of-coinbase"
+  },
+  {
+    "name_blog": "Brian Chesky, Co-Founder & CEO of Airbnb (Part II)",
+    "description_blog": "In this episode of The Social Radars, Brian Chesky returns to tell Jessica and Carolynn more of Airbnb’s story .",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/Jx-brian-chesky-co-founder-ceo-of-airbnb-part-ii"
+  },
+  {
+    "name_blog": "Paul Buchheit, Creator of Gmail",
+    "description_blog": "In this episode of The Social Radars, Jessica Livingston and Carolynn Levy talk to Paul Buchheit, a Group Partner at YC and the creator of Gmail.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/Jc-paul-buchheit-creator-of-gmail"
+  },
+  {
+    "name_blog": "David Lieb, Creator of Google Photos",
+    "description_blog": "In this episode of The Social Radars, Jessica Livingston and Carolynn Levy talk to David Lieb, YC Visiting Partner and founder of Bump, the app that evolved into Google Photos.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/Jb-david-lieb-creator-of-google-photos"
+  },
+  {
+    "name_blog": "Tony Xu, Co-Founder & CEO of Doordash",
+    "description_blog": "In this episode of The Social Radars, Jessica Livingston and Carolynn Levy talk to Tony Xu, co-founder & CEO of Doordash.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/Ja-tony-xu-co-founder-ceo-of-doordash"
+  },
+  {
+    "name_blog": "Garry Tan, President and CEO of Y Combinator",
+    "description_blog": "In this episode of The Social Radars, Jessica Livingston and Carolynn Levy talk to Garry Tan, President and CEO of Y Combinator.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/JZ-garry-tan-president-and-ceo-of-y-combinator"
+  },
+  {
+    "name_blog": "Tracy Young, Co-Founder & CEO of PlanGrid",
+    "description_blog": "In this episode of The Social Radars, Jessica Livingston and Carolynn Levy talk to Tracy Young, Co-Founder of PlanGrid",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/JY-tracy-young-co-founder-ceo-of-plangrid"
+  },
+  {
+    "name_blog": "Steve Huffman, Co-Founder & CEO of Reddit",
+    "description_blog": "Jessica Livingston and Carolynn Levy talk to Steve Huffman, co-founder and CEO of Reddit.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/JX-steve-huffman-co-founder-ceo-of-reddit"
+  },
+  {
+    "name_blog": "Brian Chesky, Co-Founder & CEO of Airbnb",
+    "description_blog": "Jessica Livingston and Carolynn Levy, talk to Brian Chesky, Co-Founder and CEO of Airbnb.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/JW-brian-chesky-co-founder-ceo-of-airbnb"
+  },
+  {
+    "name_blog": "Paul Graham, Co-Founder of Y Combinator and Viaweb",
+    "description_blog": "In this episode of The Social Radars, Jessica Livingston and Carolynn Levy talk to Paul Graham, Co-Founder of Y Combinator and Viaweb.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/JV-paul-graham-co-founder-of-y-combinator-and-viaweb"
+  },
+  {
+    "name_blog": "Edith Elliott, Co-Founder & CEO of Noora Health",
+    "description_blog": "In this episode of The Social Radars, Jessica Livingston and Carolynn Levy talk to Edith Elliot, cofounder of the non-profit startup Noora Health.",
+    "authors": ["The Social Radars"],
+    "related_categories": [],
+    "page_url": "https://www.ycombinator.com/library/JU-edith-elliott-co-founder-ceo-of-noora-health"
+  },
+  {
+    "name_blog": "10 questions to discuss with a potential co-founder",
+    "description_blog": "The 10 questions that we think are most important to answer when considering a potential co-founder.",
+    "authors": ["Y Combinator"],
+    "related_categories": ["Co-Founders", "Becoming a Founder"],
+    "page_url": "https://www.ycombinator.com/library/Hj-10-questions-to-discuss-with-a-potential-co-founder"
+  },
+  {
+    "name_blog": "Snapdocs' Aaron King on navigating market cycles",
+    "description_blog": "Founder & CEO Aaron King expertly built Snapdocs (YC W14) through volatile market conditions and with minimal outside funding into the mortgage industry's leading digital closing platform, valued at $1.5B. This is what he learned about navigating market cycles.",
+    "authors": ["Lindsay Amos"],
+    "related_categories": [
+      "Real Estate",
+      "Staying Alive",
+      "Finance",
+      "Cash Burn",
+      "Management",
+      "Leadership",
+      "People",
+      "Hiring",
+      "Product",
+      "Building Product"
+    ],
+    "page_url": "https://www.ycombinator.com/library/Gu-snapdocs-aaron-king-on-navigating-market-cycles"
+  }
+]
