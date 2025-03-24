@@ -3,101 +3,292 @@ description: The client web app of octarcus
 globs: client/*
 alwaysApply: false
 ---
-Ochtarcus is a web app that has two features
-1. allowing making search through its data
-2. displaying the whole data (blog content and video content as text) based on the categories.
+## Project Name
+**Ochtarcus** – A Next.js 15 web application (in `client/` folder) with two primary features:
+1. Searching through its data.
+2. Displaying its entire content (both “blog content” and “video content” as text) based on categories.
 
-- it is written in nextjs, it is inside client/ folder
-- shadcn ui
+## Tech Stack & Libraries
+- **Next.js 15**
+- **React 19**
+- **TypeScript 5**
+- **ESLint 9**
+- **Prettier 3**
+- **Tailwind CSS 4**
+- **Shadcn UI**
+- **App Directory**
+- **System, Light & Dark Mode**
+- **Next.js Bundle Analyzer**
+- **Dockerfile** with Node.js 22.14.0 (Alpine)
 
-the app consists of this abstract design. There is a navbar, in the navbar, there is logo and at the right
-there are two navbar items: 1. library, 2. ai-search
+## High-Level App Structure
+- A **navbar** at the top:
+  - Left side: **Logo**.
+  - Right side: Two items – **Library** and **AI Search**.
+- Two main screens:
+  1. **Library Screen** (`/library`)
+  2. **AI Search Screen** (`/ai-search`)
 
-1. library screen (/library):
-    based on the data from json, named as video-data.json, here is the type definion:
-    ```typescript
-    ```
-    
-    and based on the data from json, named as blog-data.json, here is the type definition:
-    ```typescript
+---
+
+## Branding
+
+brand color -> #E53935
+the light background -> #f5f5ee
+
+## 1. Library Screen (`/library`)
+
+### Data Sources
+- **video-data.json** (Type definition):
+  ```ts
+  {
+    name_video: string;
+    description_video: string; 
+    related_categories: string[];
+    page_url: string;
+    youtube_url: string;
+    mp3_file: string;
+    mp3_content: string;
+  }
+
+    blog-data.json (Type definition):
+
     type BlogPost = {
-  name_blog: string;
-  description_blog: string;
-  authors: string[];
-  related_categories: string[];
-  page_url: string;
-  content: {
-    table_of_contents: string[];
-    whole_content: string;
-  };
-}   
-    ```
-    there will be content cards when those content cards are pressed, based on their types,
-    (both are only texts), a video content or a blog content will be displayed. they both have similar datas.
+      name_blog: string;
+      description_blog: string;
+      authors: string[];
+      related_categories: string[];
+      page_url: string;
+      content: {
+        table_of_contents: string[];
+        whole_content: string;
+      };
+    }
 
-    In category section, there will be two primary categories named Video Content and Blog Content.
-    When the Video Content is chosen, you'll show below in the drawer the sub categories
-    - sub categories for video content:
-{ Advisers, Applying to YC, Artificial Intelligence, B2B, Becoming a Founder, Board Management, Building Product, Business Models, Cash Burn, Co-Founders, College Students, Culture, Customers, Decision Making, Design, Diversity + Inclusion, Early Stage, Engineering, Enterprise Sales, Experimentation, Feature Prioritization, Finance, Founder Psychology, Founder Stories, Fundraising, Getting Started, Growth, Growth Stage, Hiring, Investors, KPI, Launch, Leadership, Legal, MVP, Management, Management , Marketing, Mental Health, Monetization, Motivation, Negotiation, Non-Technical Founders, Office Hours, Office Hours , People, Pitch Deck, Pivoting, Press, Pricing, Problems to Solve, Product, Product Market Fit, Recruiting, Retention, Safes, Startup Ideas, Staying Alive, Stock Equity, Talking to Users, Technical, Time Management, UX + Design, Valuations, Women Founders, Working at a Startup, YC, startup school }
+Functionality
 
-    - sub categories for blog content: 
-  "Academia to Startup",
-  "Becoming a Founder",
-  "Board Management",
-  "Building Product",
-  "Business Models",
-  "CEO",
-  "CTO",
-  "Cash Burn",
-  "China",
-  "Co-Founders",
-  "College Students",
-  "Compensation",
-  "Consumer",
-  "Culture",
-  "Customers",
-  "Decision Making",
-  "Early Stage",
-  "Engineering",
-  "Enterprise Sales",
-  "Feature Prioritization",
-  "Finance",
-  "Founder Psychology",
-  "Founder Stories",
-  "Fundraising",
-  "Fundraising Docs",
-  "Growth",
-  "Growth Stage",
-  "Hiring",
-  "International",
-  "Investors",
-  "KPI",
-  "Leadership",
-  "MVP",
-  "Management",
-  "People",
-  "Pitch Deck",
-  "Press",
-  "Product",
-  "Product Market Fit",
-  "Real Estate",
-  "Recruiting",
-  "Retention",
-  "Science + Biotech",
-  "Seed Round",
-  "Series A",
-  "Staying Alive",
-  "Talking to Users",
-  "Technical",
-  "Unit Economics",
-  "Valuations",
-  "Working at a Startup",
-  "YC",
-  "YC Demo Day"
-]
-    So, in the drawer, there are main and sub category check options (could be multiple chosen categories), and
-    based on those user choices, the main content in the middle is generated which are full of cards.
-    
+    The screen displays “content cards” representing either video or blog content.
 
-2. ai search (/ai-search):
-    there is only a search box, but for now keep it dummy
+    On click/tap of a card, the corresponding text-based content is shown (video content or blog content).
+
+    Category Section (Drawer UI):
+
+        Two primary categories: Video Content and Blog Content.
+
+        Sub-categories appear under each primary category.
+
+Sub-categories for Video Content
+
+Advisers,
+Applying to YC,
+Artificial Intelligence,
+B2B,
+Becoming a Founder,
+Board Management,
+Building Product,
+Business Models,
+Cash Burn,
+Co-Founders,
+College Students,
+Culture,
+Customers,
+Decision Making,
+Design,
+Diversity + Inclusion,
+Early Stage,
+Engineering,
+Enterprise Sales,
+Experimentation,
+Feature Prioritization,
+Finance,
+Founder Psychology,
+Founder Stories,
+Fundraising,
+Getting Started,
+Growth,
+Growth Stage,
+Hiring,
+Investors,
+KPI,
+Launch,
+Leadership,
+Legal,
+MVP,
+Management,
+Management ,
+Marketing,
+Mental Health,
+Monetization,
+Motivation,
+Negotiation,
+Non-Technical Founders,
+Office Hours,
+Office Hours ,
+People,
+Pitch Deck,
+Pivoting,
+Press,
+Pricing,
+Problems to Solve,
+Product,
+Product Market Fit,
+Recruiting,
+Retention,
+Safes,
+Startup Ideas,
+Staying Alive,
+Stock Equity,
+Talking to Users,
+Technical,
+Time Management,
+UX + Design,
+Valuations,
+Women Founders,
+Working at a Startup,
+YC,
+startup school
+
+Sub-categories for Blog Content
+
+Academia to Startup,
+Becoming a Founder,
+Board Management,
+Building Product,
+Business Models,
+CEO,
+CTO,
+Cash Burn,
+China,
+Co-Founders,
+College Students,
+Compensation,
+Consumer,
+Culture,
+Customers,
+Decision Making,
+Early Stage,
+Engineering,
+Enterprise Sales,
+Feature Prioritization,
+Finance,
+Founder Psychology,
+Founder Stories,
+Fundraising,
+Fundraising Docs,
+Growth,
+Growth Stage,
+Hiring,
+International,
+Investors,
+KPI,
+Leadership,
+MVP,
+Management,
+People,
+Pitch Deck,
+Press,
+Product,
+Product Market Fit,
+Real Estate,
+Recruiting,
+Retention,
+Science + Biotech,
+Seed Round,
+Series A,
+Staying Alive,
+Talking to Users,
+Technical,
+Unit Economics,
+Valuations,
+Working at a Startup,
+YC,
+YC Demo Day
+
+    Users can select multiple sub-categories (and main categories) in the drawer to filter the displayed cards in the Library screen’s main content area.
+
+2. AI Search Screen (/ai-search)
+
+    Contains a single Search Box (currently a dummy for future AI integration).
+
+Simplified Folder Structure (Only Needed Folders)
+
+├── Dockerfile
+├── next.config.ts
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── public
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── images
+│   │   ├── screenshot1.png
+│   │   └── screenshot2.png
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── README.md
+├── src
+│   ├── app
+│   │   ├── ai-search
+│   │   ├── favicon.ico
+│   │   ├── fonts
+│   │   │   ├── GeistMonoVF.woff
+│   │   │   └── GeistVF.woff
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── library
+│   │   └── page.tsx
+│   ├── components
+│   │   ├── common
+│   │   │   ├── nav-header.tsx         // Contains Navbar logic with 2 items: Library, AI Search
+│   │   │   ├── drawer-demo.tsx        // Can be utilized to implement category drawer
+│   │   │   ├── card-demo.tsx          // Reference for implementing content cards
+│   │   │   ├── ...
+│   │   └── pages
+│   │       ├── ai-search
+│   │       │   └── AiSearchMain.page
+│   │       └── library
+│   │           └── LibraryMain.page   // The main library screen
+│   ├── hooks
+│   │   └── use-meta-color.ts
+│   ├── lib
+│   │   ├── registry.ts
+│   │   └── utils.ts
+│   └── registry
+│       └── new-york-v4
+│           ├── blocks
+│           │   ├── ...
+│           ├── charts
+│           │   ├── ...
+│           ├── hooks
+│           │   └── use-mobile.ts
+│           ├── lib
+│           │   └── utils.ts
+│           └── ui
+│               ├── button.tsx
+│               ├── drawer.tsx
+│               ├── sidebar.tsx
+│               ├── ...
+└── tsconfig.json
+
+(Note: Node modules, extended chart demos, and other items are present but omitted here per “only use needed folder names”.)
+Summary of Behavior
+
+    Navbar with logo and two items:
+
+        Library → /library
+
+        AI Search → /ai-search
+
+    Library (at /library):
+
+        Displays cards with textual data for Video Content or Blog Content.
+
+        Allows filtering by main category + sub-categories through a drawer using checkboxes.
+
+        Filtered results are shown in the main area.
+
+    AI Search (at /ai-search):
+
+        Displays a search box (functionality currently placeholder/dummy).
+

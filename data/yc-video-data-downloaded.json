@@ -446,17 +446,6 @@
     "mp3_file": "downloaded/Modern_startup_funding.mp3"
   },
   {
-    "name_video": "Nine business models and the metrics investors want ",
-    "description_video": "YC's Anu Hariharan breaks down the metrics we look for when we're evaluating a startup's business model and common mistakes to avoid when measuring them.",
-    "related_categories": [
-      "Growth",
-      "KPI",
-      "Early Stage",
-      "Business Models"
-    ],
-    "page_url": "/library/8E-nine-business-models-and-the-metrics-investors-want"
-  },
-  {
     "name_video": "Live office hours with Sam Altman and Yuri Sagalov",
     "description_video": "Former YC Partner Sam Altman and YC alumYuri Sagalov, CEO of Amium, hold Live Office Hours with three startups. They'll discuss their ideas and their thought processes around building their companies, and get live advice. From YC's Startup School in 2017.",
     "related_categories": [
@@ -1016,23 +1005,6 @@
     "mp3_file": "downloaded/The_real_product-market_fit.mp3"
   },
   {
-    "name_video": "On starting a scaling B2B marketplace Faire",
-    "description_video": "Max Rhodes, co-founder & CEO of Faire (YC W17), discusses the early days of Faire, scaling, fundraising and how to chose the right investors.",
-    "related_categories": [
-      "Founder Stories"
-    ],
-    "page_url": "/library/5v-on-starting-a-scaling-b2b-marketplace-faire"
-  },
-  {
-    "name_video": "Women founders and raising money",
-    "description_video": "Three women founders share stories on how they raised money for their startups, sharing tips and tricks that may help you.",
-    "related_categories": [
-      "Founder Stories",
-      "Women Founders"
-    ],
-    "page_url": "/library/5q-women-founders-and-raising-money"
-  },
-  {
     "name_video": "Creating good company culture (and sticking to it) ",
     "description_video": "Kathryn Minshew, the co-founder of the job search and career advice platform The Muse (YC W12), shares four key pieces of advice she's learned as a founder so far, including being painfully honest about the state of your startup, how crucial it is to construct a positive company culture, and staying motivated by remembering your roots.",
     "related_categories": [
@@ -1134,16 +1106,6 @@
     "mp3_file": "downloaded/On_starting_and_scaling_Bloom_Institute_of_Technology_.mp3"
   },
   {
-    "name_video": "How to create and manage a board (part 2)",
-    "description_video": "More best practices in managing a board, including how to pick board members, how to think about independent board members, what board members actually do.",
-    "related_categories": [
-      "Board Management",
-      "Growth Stage",
-      "Investors"
-    ],
-    "page_url": "/library/5J-how-to-create-and-manage-a-board-part-2"
-  },
-  {
     "name_video": "On starting and scaling healthcare startup 23andMe",
     "description_video": "Anne Wojcicki, co-founder & CEO of 23andMe, on why and how she started and grew 23andMe. Anne talks about the best decisions she's made and the struggles of running a company in a regulated industry. She also covers the importance of thoughtful hiring, communication, and persistance.",
     "related_categories": [
@@ -1152,16 +1114,6 @@
     "page_url": "/library/5I-on-starting-and-scaling-healthcare-startup-23andme",
     "youtube_url": "https://youtube.com/watch?v=zZN-3RpdjcY",
     "mp3_file": "downloaded/On_starting_and_scaling_healthcare_startup_23andMe.mp3"
-  },
-  {
-    "name_video": "Founder coaching and having hard conversations",
-    "description_video": "A founder coach shares advice on common founder issues, including difficult conversations co-founders need to have on roles and responsibilities, equity, runway, and co-founder performance.",
-    "related_categories": [
-      "Co-Founders",
-      "Founder Psychology",
-      "Decision Making"
-    ],
-    "page_url": "/library/5H-founder-coaching-and-having-hard-conversations"
   },
   {
     "name_video": "On raising Seed and Series A as a woman founder",
@@ -1903,12 +1855,6 @@
     "mp3_file": "downloaded/Does_your_tech_startup_really_need_a_technical_co-founder?_Yes..mp3"
   },
   {
-    "name_video": "From Underdog to Undefeated: The Edrizio De La Cruz founder story",
-    "description_video": "Edrizio De La Cruz's immigrant startup founder story is truly one of the biggest roller coasters. From underdog to undefeated, here’s his founder story.",
-    "related_categories": [],
-    "page_url": "/library/KG-from-underdog-to-undefeated-the-edrizio-de-la-cruz-founder-story"
-  },
-  {
     "name_video": "How To NOT Get Screwed Over As A Software Engineer",
     "description_video": "The stories are true: technical founders (and early technical employees!) often end up with the short end of the stick when starting a company. In this episode of Dalton & Michael, we'll discuss how to keep that from happening to you.",
     "related_categories": [],
@@ -2304,24 +2250,6 @@
     "page_url": "/library/JB-jessica-livingston-on-how-to-build-the-future",
     "youtube_url": "https://youtube.com/watch?v=nFOC-cgIWaY",
     "mp3_file": "downloaded/Jessica_Livingston_on_how_to_build_the_future.mp3"
-  },
-  {
-    "name_video": "YC Application Tips: When to apply",
-    "description_video": "When should you apply to YC? YC’s Stephanie Simon shares her insights.",
-    "related_categories": [
-      "YC",
-      "Applying to YC"
-    ],
-    "page_url": "/library/JA-yc-application-tips-when-to-apply"
-  },
-  {
-    "name_video": "YC Application Tips: You don't need to know someone",
-    "description_video": "Do you need to know someone at YC to get in? Absolutely not, as YC’s Stephanie Simon explains.",
-    "related_categories": [
-      "YC",
-      "Applying to YC"
-    ],
-    "page_url": "/library/J9-yc-application-tips-you-dont-need-to-know-someone"
   },
   {
     "name_video": "YC Application Tips: Include a demo",
@@ -2822,42 +2750,6 @@
     "page_url": "/library/IN-dalton-michael-does-your-startup-need-to-be-in-san-francisco",
     "youtube_url": "https://youtube.com/watch?v=ZqGOCF4O6ks",
     "mp3_file": "downloaded/Dalton_&_Michael:_Does_Your_Startup_Need_To_Be_In_San_Francisco?.mp3"
-  },
-  {
-    "name_video": "Successful YC Application video: Teespring (YC W2013)",
-    "description_video": "The video from Teespring's YC application.",
-    "related_categories": [
-      "YC",
-      "Applying to YC"
-    ],
-    "page_url": "/library/IJ-successful-yc-application-video-teespring-yc-w2013"
-  },
-  {
-    "name_video": "Successful YC Application video: Zenefits (YC W2013)",
-    "description_video": "The video from Zenefit's YC application.",
-    "related_categories": [
-      "YC",
-      "Applying to YC"
-    ],
-    "page_url": "/library/II-successful-yc-application-video-zenefits-yc-w2013"
-  },
-  {
-    "name_video": "Successful YC Application video: Flip (YC W2015)",
-    "description_video": "The video from Flip's YC application.",
-    "related_categories": [
-      "YC",
-      "Applying to YC"
-    ],
-    "page_url": "/library/IH-successful-yc-application-video-flip-yc-w2015"
-  },
-  {
-    "name_video": "Successful YC Application video: Campus Job (YC W2015)",
-    "description_video": "The video from Campus Job's YC application.",
-    "related_categories": [
-      "YC",
-      "Applying to YC"
-    ],
-    "page_url": "/library/IG-successful-yc-application-video-campus-job-yc-w2015"
   },
   {
     "name_video": "YC guide to business models",
