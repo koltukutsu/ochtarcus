@@ -1,0 +1,103 @@
+---
+description: The client web app of octarcus 
+globs: client/*
+alwaysApply: false
+---
+Ochtarcus is a web app that has two features
+1. allowing making search through its data
+2. displaying the whole data (blog content and video content as text) based on the categories.
+
+- it is written in nextjs, it is inside client/ folder
+- shadcn ui
+
+the app consists of this abstract design. There is a navbar, in the navbar, there is logo and at the right
+there are two navbar items: 1. library, 2. ai-search
+
+1. library screen (/library):
+    based on the data from json, named as video-data.json, here is the type definion:
+    ```typescript
+    ```
+    
+    and based on the data from json, named as blog-data.json, here is the type definition:
+    ```typescript
+    type BlogPost = {
+  name_blog: string;
+  description_blog: string;
+  authors: string[];
+  related_categories: string[];
+  page_url: string;
+  content: {
+    table_of_contents: string[];
+    whole_content: string;
+  };
+}   
+    ```
+    there will be content cards when those content cards are pressed, based on their types,
+    (both are only texts), a video content or a blog content will be displayed. they both have similar datas.
+
+    In category section, there will be two primary categories named Video Content and Blog Content.
+    When the Video Content is chosen, you'll show below in the drawer the sub categories
+    - sub categories for video content:
+{ Advisers, Applying to YC, Artificial Intelligence, B2B, Becoming a Founder, Board Management, Building Product, Business Models, Cash Burn, Co-Founders, College Students, Culture, Customers, Decision Making, Design, Diversity + Inclusion, Early Stage, Engineering, Enterprise Sales, Experimentation, Feature Prioritization, Finance, Founder Psychology, Founder Stories, Fundraising, Getting Started, Growth, Growth Stage, Hiring, Investors, KPI, Launch, Leadership, Legal, MVP, Management, Management , Marketing, Mental Health, Monetization, Motivation, Negotiation, Non-Technical Founders, Office Hours, Office Hours , People, Pitch Deck, Pivoting, Press, Pricing, Problems to Solve, Product, Product Market Fit, Recruiting, Retention, Safes, Startup Ideas, Staying Alive, Stock Equity, Talking to Users, Technical, Time Management, UX + Design, Valuations, Women Founders, Working at a Startup, YC, startup school }
+
+    - sub categories for blog content: 
+  "Academia to Startup",
+  "Becoming a Founder",
+  "Board Management",
+  "Building Product",
+  "Business Models",
+  "CEO",
+  "CTO",
+  "Cash Burn",
+  "China",
+  "Co-Founders",
+  "College Students",
+  "Compensation",
+  "Consumer",
+  "Culture",
+  "Customers",
+  "Decision Making",
+  "Early Stage",
+  "Engineering",
+  "Enterprise Sales",
+  "Feature Prioritization",
+  "Finance",
+  "Founder Psychology",
+  "Founder Stories",
+  "Fundraising",
+  "Fundraising Docs",
+  "Growth",
+  "Growth Stage",
+  "Hiring",
+  "International",
+  "Investors",
+  "KPI",
+  "Leadership",
+  "MVP",
+  "Management",
+  "People",
+  "Pitch Deck",
+  "Press",
+  "Product",
+  "Product Market Fit",
+  "Real Estate",
+  "Recruiting",
+  "Retention",
+  "Science + Biotech",
+  "Seed Round",
+  "Series A",
+  "Staying Alive",
+  "Talking to Users",
+  "Technical",
+  "Unit Economics",
+  "Valuations",
+  "Working at a Startup",
+  "YC",
+  "YC Demo Day"
+]
+    So, in the drawer, there are main and sub category check options (could be multiple chosen categories), and
+    based on those user choices, the main content in the middle is generated which are full of cards.
+    
+
+2. ai search (/ai-search):
+    there is only a search box, but for now keep it dummy
